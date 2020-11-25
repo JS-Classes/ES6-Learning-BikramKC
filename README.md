@@ -1,1 +1,1 @@
-# BikramKC-JSLearning
+# JSLearning
