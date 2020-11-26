@@ -24,26 +24,30 @@ function add()
 add();
 
 // let scope - block scope
-function subtract()
+function subtract(a, b)
 {
-    let p = 25;
-    if(p=45)
+    
+    if(a>b)
     {
-        console.log(p);
+        let sub = a-b;
+        var sub1 = a-b;
     }
     else
     {
-        let p = 95;
-        console.log(p);
+        let sub = b-a;
+        var sub1 = b-a;
     }
+    // return sub; // sub not recognized
+    return sub1;
 }
-subtract();
+console.log(subtract(3,5));
 
 // var can be hoisted but not const and let
 console.log(age);
 var age = 34;
 
+
 // let and const
-console.log(age1);
+// console.log(age1);
 // let age1 = 34; //not allowed
 // const age1 = 45; // not allowed
