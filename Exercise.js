@@ -15,3 +15,7 @@ function MultiplicationTable(m, y, range=10)
 }
 
 MultiplicationTable(2,5);
+
+const people = [{name: "Bikram", dob: "2020-01-01", gender: "M"},{name: "Bishnu", dob: "2020-01-01", gender: "M"}]
+
+console.table(people);
