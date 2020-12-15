@@ -16,6 +16,6 @@ let GetSD = (numbers) => {
     }
     return Math.sqrt(sqrDiffSum/len);
 }
-const ages = [23,45,21,56,32,43,22,89,76,10];
+const ages = [2, 45, 56, 78];
 let sdAges = GetSD(ages);
 console .log(`Standard Deviation of ages: ${sdAges}`);
